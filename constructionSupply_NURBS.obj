@@ -1,0 +1,419 @@
+# Rhino
+
+g object_1
+# - trim loop
+vp 0 0
+vp 0.7320508075688771 0
+cstype bspline
+deg 1
+curv2 1 2
+parm u 0 0 0.7320508075688771 0.7320508075688771
+end
+vp 0.7320508075688771 0
+vp 0.7320508075688771 3
+cstype bspline
+deg 1
+curv2 3 4
+parm u 0 0 3 3
+end
+vp 0.7320508075688771 3
+vp 0 3
+cstype bspline
+deg 1
+curv2 5 6
+parm u 0 0 0.7320508075688771 0.7320508075688771
+end
+vp 0 3
+vp 0 0
+cstype bspline
+deg 1
+curv2 7 8
+parm u 0 0 3 3
+end
+v 0 0 -3.5 1
+v 0 3.499999999999998 -3.499999999999998 0.6339745962155615
+v 0 3.500000000000006 -1.381136245211292e-15 0.8038475772933681
+v -3 0 -3.5 1
+v -3 3.499999999999998 -3.499999999999998 0.6339745962155615
+v -3 3.500000000000006 -1.381136245211292e-15 0.8038475772933681
+cstype rat bspline
+deg 2 1
+surf 0 0.7320508075688771 0 3 1 2 3 4 5 6
+parm u 0 0 0 0.7320508075688771 0.7320508075688771 0.7320508075688771
+parm v 0 0 3 3
+trim 0 0.7320508075688771 1 0 3 2 0 0.7320508075688771 3 0 3 4
+end
+g object_2
+# - trim loop
+vp 0.267949192431123 0
+vp 1 0
+cstype bspline
+deg 1
+curv2 9 10
+parm u 0.267949192431123 0.267949192431123 1 1
+end
+vp 1 0
+vp 1 3
+cstype bspline
+deg 1
+curv2 11 12
+parm u 0 0 3 3
+end
+vp 1 3
+vp 0.267949192431123 3
+cstype bspline
+deg 1
+curv2 13 14
+parm u 0.267949192431123 0.267949192431123 1 1
+end
+vp 0.267949192431123 3
+vp 0.267949192431123 0
+cstype bspline
+deg 1
+curv2 15 16
+parm u 0 0 3 3
+end
+v 0 -3.500000000000006 -1.381136245211293e-15 0.803847577293368
+v 0 -3.500000000000001 -3.499999999999999 0.6339745962155616
+v 0 0 -3.5 1
+v -3 -3.500000000000006 -1.381136245211293e-15 0.803847577293368
+v -3 -3.500000000000001 -3.499999999999999 0.6339745962155616
+v -3 0 -3.5 1
+cstype rat bspline
+deg 2 1
+surf 0.267949192431123 1 0 3 7 8 9 10 11 12
+parm u 0.267949192431123 0.267949192431123 0.267949192431123 1 1 1
+parm v 0 0 3 3
+trim 0.267949192431123 1 5 0 3 6 0.267949192431123 1 7 0 3 8
+end
+g object_3
+# - trim loop
+vp 0 0
+vp 3 0
+cstype bspline
+deg 1
+curv2 17 18
+parm u 0 0 3 3
+end
+vp 3 0
+vp 3 4
+cstype bspline
+deg 1
+curv2 19 20
+parm u 0 0 4 4
+end
+vp 3 4
+vp 0 4
+cstype bspline
+deg 1
+curv2 21 22
+parm u 0 0 3 3
+end
+vp 0 4
+vp 0 0
+cstype bspline
+deg 1
+curv2 23 24
+parm u 0 0 4 4
+end
+v -3 -4 -4
+v 0 -4 -4
+v -3 -4 0
+v 0 -4 0
+cstype bspline
+deg 1 1
+surf 0 3 0 4 13 14 15 16
+parm u 0 0 3 3
+parm v 0 0 4 4
+trim 0 3 9 0 4 10 0 3 11 0 4 12
+end
+# - trim loop
+vp 10.50000000000001 4 1
+vp 10.49999868375654 0.4999999999999995 0.7071069141472275
+vp 7 0.5 1
+cstype rat bspline
+deg 2
+curv2 25 26 27
+parm u -0.7320508075688772 -0.7320508075688772 -0.7320508075688772 \
+ 0 0 0
+end
+vp 7 0.5 1
+vp 3.500000000000002 0.4999999999999993 0.7071067811865479
+vp 3.499999999999989 4 1
+cstype rat bspline
+deg 2
+curv2 28 29 30
+parm u -1 -1 -1 -0.2679491924311233 -0.2679491924311233 -0.2679491924311233
+end
+vp 3.499999999999989 4
+vp 3 4
+cstype bspline
+deg 1
+curv2 31 32
+parm u 10.50000000000001 10.50000000000001 11 11
+end
+vp 3 4
+vp 3 0
+cstype bspline
+deg 1
+curv2 33 34
+parm u 0 0 4 4
+end
+vp 3 0
+vp 11 0
+cstype bspline
+deg 1
+curv2 35 36
+parm u 3 3 11 11
+end
+vp 11 0
+vp 11 4
+cstype bspline
+deg 1
+curv2 37 38
+parm u 0 0 4 4
+end
+vp 11 4
+vp 10.50000000000001 4
+cstype bspline
+deg 1
+curv2 39 40
+parm u 3 3 3.499999999999989 3.499999999999989
+end
+v 0 -4 -4
+v 0 4 -4
+v 0 -4 0
+v 0 4 0
+cstype bspline
+deg 1 1
+surf 3 11 0 4 17 18 19 20
+parm u 3 3 11 11
+parm v 0 0 4 4
+trim -0.7320508075688772 0 13 -1 -0.2679491924311233 14 10.50000000000001 11 15 \
+ 0 4 16 3 11 17 0 4 18 3 3.499999999999989 19
+end
+# - trim loop
+vp 11 0
+vp 14 0
+cstype bspline
+deg 1
+curv2 41 42
+parm u 11 11 14 14
+end
+vp 14 0
+vp 14 4
+cstype bspline
+deg 1
+curv2 43 44
+parm u 0 0 4 4
+end
+vp 14 4
+vp 11 4
+cstype bspline
+deg 1
+curv2 45 46
+parm u 11 11 14 14
+end
+vp 11 4
+vp 11 0
+cstype bspline
+deg 1
+curv2 47 48
+parm u 0 0 4 4
+end
+v 0 4 -4
+v -3 4 -4
+v 0 4 0
+v -3 4 0
+cstype bspline
+deg 1 1
+surf 11 14 0 4 21 22 23 24
+parm u 11 11 14 14
+parm v 0 0 4 4
+trim 11 14 20 0 4 21 11 14 22 0 4 23
+end
+# - trim loop
+vp 21.5 4 1
+vp 21.5 0.4999999999999994 0.7071067811865477
+vp 18 0.5 1
+cstype rat bspline
+deg 2
+curv2 49 50 51
+parm u 0.2679491924311228 0.2679491924311228 0.2679491924311228 1 \
+ 1 1
+end
+vp 18 0.5 1
+vp 14.5 0.4999999999999995 0.7071067811865474
+vp 14.5 3.999999999999999 1
+cstype rat bspline
+deg 2
+curv2 52 53 54
+parm u 0 0 0 0.7320508075688775 0.7320508075688775 0.7320508075688775
+end
+vp 14.5 4
+vp 14 4
+cstype bspline
+deg 1
+curv2 55 56
+parm u 21.5 21.5 22 22
+end
+vp 14 4
+vp 14 0
+cstype bspline
+deg 1
+curv2 57 58
+parm u 0 0 4 4
+end
+vp 14 0
+vp 22 0
+cstype bspline
+deg 1
+curv2 59 60
+parm u 14 14 22 22
+end
+vp 22 0
+vp 22 4
+cstype bspline
+deg 1
+curv2 61 62
+parm u 0 0 4 4
+end
+vp 22 4
+vp 21.5 4
+cstype bspline
+deg 1
+curv2 63 64
+parm u 14 14 14.5 14.5
+end
+v -3 4 -4
+v -3 -4 -4
+v -3 4 0
+v -3 -4 0
+cstype bspline
+deg 1 1
+surf 14 22 0 4 25 26 27 28
+parm u 14 14 22 22
+parm v 0 0 4 4
+trim 0.2679491924311228 1 24 0 0.7320508075688775 25 21.5 22 26 0 4 27 \
+ 14 22 28 0 4 29 14 14.5 30
+end
+# - trim loop
+vp 0 0
+vp 3 0
+cstype bspline
+deg 1
+curv2 65 66
+parm u 0 0 3 3
+end
+vp 3 0
+vp 3 8
+cstype bspline
+deg 1
+curv2 67 68
+parm u 3 3 11 11
+end
+vp 3 8
+vp 0 8
+cstype bspline
+deg 1
+curv2 69 70
+parm u 11 11 14 14
+end
+vp 0 8
+vp 0 0
+cstype bspline
+deg 1
+curv2 71 72
+parm u 14 14 22 22
+end
+v -3 -4 -4
+v 0 -4 -4
+v -3 4 -4
+v 0 4 -4
+cstype bspline
+deg 1 1
+surf 0 3 0 8 29 30 31 32
+parm u 0 0 3 3
+parm v 0 0 8 8
+trim 0 3 31 3 11 32 11 14 33 14 22 34
+end
+# - trim loop
+vp 3 0.4999999999999894 1
+vp 0 0.5 1
+cstype rat bspline
+deg 1
+curv2 73 74
+parm u -1 -1 -0.9285714285714286 -0.9285714285714286
+end
+vp 0 0.5
+vp 0 0
+cstype bspline
+deg 1
+curv2 75 76
+parm u 21.5 21.5 22 22
+end
+vp 0 0
+vp 3 0
+cstype bspline
+deg 1
+curv2 77 78
+parm u 0 0 3 3
+end
+vp 3 0
+vp 3 0.4999999999999894
+cstype bspline
+deg 1
+curv2 79 80
+parm u 3 3 3.499999999999989 3.499999999999989
+end
+v -3 -4 0
+v 0 -4 0
+v -3 4 0
+v 0 4 0
+cstype bspline
+deg 1 1
+surf 0 3 0 8 33 34 35 36
+parm u 0 0 3 3
+parm v 0 0 8 8
+trim -1 -0.9285714285714286 35 21.5 22 36 0 3 37 3 3.499999999999989 38
+end
+# - trim loop
+vp 0 7.5 1
+vp 3 7.500000000000011 1
+cstype rat bspline
+deg 1
+curv2 81 82
+parm u 0.9285714285714286 0.9285714285714286 1 1
+end
+vp 3 7.500000000000011
+vp 3 8
+cstype bspline
+deg 1
+curv2 83 84
+parm u 10.50000000000001 10.50000000000001 11 11
+end
+vp 3 8
+vp 0 8
+cstype bspline
+deg 1
+curv2 85 86
+parm u 11 11 14 14
+end
+vp 0 8
+vp 0 7.5
+cstype bspline
+deg 1
+curv2 87 88
+parm u 14 14 14.5 14.5
+end
+v -3 -4 0
+v 0 -4 0
+v -3 4 0
+v 0 4 0
+cstype bspline
+deg 1 1
+surf 0 3 0 8 37 38 39 40
+parm u 0 0 3 3
+parm v 0 0 8 8
+trim 0.9285714285714286 1 39 10.50000000000001 11 40 11 14 41 14 14.5 42
+end
