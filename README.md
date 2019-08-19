@@ -1,2 +1,2 @@
 # BeTSSi
-CAD-files for the BeTSSi submarine
+CAD-files and triangulation files for the BeTSSi submarine.
