@@ -1,3 +1,5 @@
 # CAD- and triangulation files for the BeTSSi submarine 
 
-As GitHub has an upper file size limit of 100MB, the .bdf, ASCII.stl and .mat files are not available for res32, but the data for this mesh is given in BeTSSi_mod2_BEM_res32.stl. The lacking file formates may be given on request.
+As explained in the article https://doi.org/10.1016/j.cma.2019.112670
+the data has been published here: https://doi.org/10.11582/2019.00017
+and this git-repository if for this reason depricated.
